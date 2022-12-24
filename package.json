@@ -1,0 +1,21 @@
+{
+  "name": "hello-mern",
+  "version": "1.0.0",
+  "description": "A full-stack web application, made to learn the fundamentals of the MERN Stack.",
+  "main": "index.ts",
+  "scripts": {
+    "server": "nodemon backend/server.ts"
+  },
+  "author": "Okoye Charles",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
+}
